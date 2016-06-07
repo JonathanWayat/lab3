@@ -1,0 +1,48 @@
+<Settings>
+    <Version>1.15</Version>
+    <WindowsLayouts>
+        <Layout type="1" typename="TourLobby">
+            <WindowPlacement>0;3;25;796;548</WindowPlacement>
+        </Layout>
+        <Layout type="2" typename="Table">
+            <WindowPlacement>0;286;91;794;546</WindowPlacement>
+        </Layout>
+    </WindowsLayouts>
+    <Controls>
+        <item id="11" type="tableview" name="TLPlayersView">
+            <sorting column="4" order="1"/>
+            <columnsWidth>11;11;0;40;30;0;0;0;0;</columnsWidth>
+        </item>
+        <item id="14" type="tableview" name="TLSatellitesView">
+            <sorting column="14" order="0"/>
+            <columnsWidth>40;15;15;7;14;8;0;0;</columnsWidth>
+        </item>
+        <item id="15" type="tableview" name="TLTablesView">
+            <sorting column="0" order="1"/>
+            <columnsWidth>23;23;24;24;</columnsWidth>
+        </item>
+        <item id="16" type="tableview" name="TLPlayersOfTableView">
+            <sorting column="4" order="1"/>
+        </item>
+        <item id="5" type="tableview" name="UpcomingTours">
+            <sorting column="5" order="0"/>
+        </item>
+    </Controls>
+    <MainLobby>
+        <Tabs>
+            <item id="1" name="QuickSeat">
+                <GameType>1</GameType>
+                <item id="1" Game="FixedLimit">
+                    <TableType>0</TableType>
+                    <StakesType>0</StakesType>
+                </item>
+            </item>
+        </Tabs>
+        <ActiveTab>0</ActiveTab>
+        <TimeZone>0</TimeZone>
+    </MainLobby>
+    <Login>
+        <username>SergioWayat</username>
+        <password>tb4bIOZtefbdDRZ45Hvwuw==</password>
+    </Login>
+</Settings>

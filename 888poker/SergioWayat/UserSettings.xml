@@ -1,0 +1,124 @@
+<Settings>
+    <UserSettings>
+        <TableLayout>
+            <ThemeID>0</ThemeID>
+            <DeckID>0</DeckID>
+            <CardFaceID>0</CardFaceID>
+            <IsEnableActionColor>1</IsEnableActionColor>
+            <IsDontShowPersonalImage>0</IsDontShowPersonalImage>
+            <IsFullCardView>0</IsFullCardView>
+            <IsSaveLayout>1</IsSaveLayout>
+            <IsUseSnapTheme>1</IsUseSnapTheme>
+        </TableLayout>
+        <PersonalImage>
+            <AvatarID>58</AvatarID>
+            <IsHideAvatar>0</IsHideAvatar>
+        </PersonalImage>
+        <GameSettings>
+            <IsOpenLobbyWhenTableChosen>0</IsOpenLobbyWhenTableChosen>
+            <IsShowCasinoButtons>1</IsShowCasinoButtons>
+            <IsHideBankroll>0</IsHideBankroll>
+            <IsDisableShortcuts>0</IsDisableShortcuts>
+            <ChatFilter>7</ChatFilter>
+            <IsShowFoldedCards>1</IsShowFoldedCards>
+            <TimeBankActivationType>0</TimeBankActivationType>
+            <IsPopUpWindow>1</IsPopUpWindow>
+            <IsFlashWindow>1</IsFlashWindow>
+            <FocusTypeWhenTableChosen>0</FocusTypeWhenTableChosen>
+            <DefaultBetType>1</DefaultBetType>
+            <HandHistory>
+                <IsEnableHistory>1</IsEnableHistory>
+                <HistoryPath>C:\Users\Jonathan\Documents\888poker\HandHistory</HistoryPath>
+                <HistoryDays>30</HistoryDays>
+            </HandHistory>
+            <PreferredSeat>
+                <Table2>0</Table2>
+                <Table3>0</Table3>
+                <Table4>0</Table4>
+                <Table5>0</Table5>
+                <Table6>0</Table6>
+                <Table7>0</Table7>
+                <Table8>0</Table8>
+                <Table9>0</Table9>
+                <Table10>0</Table10>
+            </PreferredSeat>
+            <AutoRebuyAddonMask>0</AutoRebuyAddonMask>
+        </GameSettings>
+        <Notifications>
+            <IsHideChatCallouts>0</IsHideChatCallouts>
+            <IsShowBestHand>1</IsShowBestHand>
+            <IsShowFinalTableInSpecialBackground>1</IsShowFinalTableInSpecialBackground>
+            <ProgressBarType>1</ProgressBarType>
+            <PlaySoundType>1</PlaySoundType>
+            <IsEnableAnimation>1</IsEnableAnimation>
+            <IsEnableExtraVisualFeatures>1</IsEnableExtraVisualFeatures>
+            <SnapAnimationType>1</SnapAnimationType>
+            <PopUpOptions>
+                <IsPopUpWinningHands>1</IsPopUpWinningHands>
+                <IsPopUpWebPopupBlocker>1</IsPopUpWebPopupBlocker>
+                <IsPrivateGamesIntroShown>1</IsPrivateGamesIntroShown>
+                <IsShowSnapTourInformation>1</IsShowSnapTourInformation>
+                <ShowRemoveWaitListPopUp>1</ShowRemoveWaitListPopUp>
+                <ShowVideoTableInfoPopUp>1</ShowVideoTableInfoPopUp>
+                <IsShowJoinPosPopUp>1</IsShowJoinPosPopUp>
+            </PopUpOptions>
+        </Notifications>
+        <VideoAudioDevices>
+            <WebCamDevice></WebCamDevice>
+            <MicrophoneDevice></MicrophoneDevice>
+            <SpeakerDevice></SpeakerDevice>
+        </VideoAudioDevices>
+    </UserSettings>
+    <Version>1.15</Version>
+    <BuyInSettings>
+        <IsAllMoneyBuyIn>1</IsAllMoneyBuyIn>
+        <IsChoosedBuyIn>0</IsChoosedBuyIn>
+        <IsRebuyChecked>0</IsRebuyChecked>
+        <IsRebuyBuyInAmount>0</IsRebuyBuyInAmount>
+        <IsRebuyRunOutOfMoney>0</IsRebuyRunOutOfMoney>
+    </BuyInSettings>
+    <HistorySettings>
+        <HandPlaySpeed>1</HandPlaySpeed>
+    </HistorySettings>
+    <WindowsLayouts>
+        <Layout type="1" typename="TourLobby">
+            <WindowPlacement>0;3;25;796;548</WindowPlacement>
+        </Layout>
+        <Layout type="2" typename="Table">
+            <WindowPlacement>0;286;91;794;546</WindowPlacement>
+        </Layout>
+    </WindowsLayouts>
+    <Controls>
+        <item id="11" type="tableview" name="TLPlayersView">
+            <sorting column="4" order="1"/>
+            <columnsWidth>11;11;0;40;30;0;0;0;0;</columnsWidth>
+        </item>
+        <item id="14" type="tableview" name="TLSatellitesView">
+            <sorting column="14" order="0"/>
+            <columnsWidth>40;15;15;7;14;8;0;0;</columnsWidth>
+        </item>
+        <item id="15" type="tableview" name="TLTablesView">
+            <sorting column="0" order="1"/>
+            <columnsWidth>23;23;24;24;</columnsWidth>
+        </item>
+        <item id="16" type="tableview" name="TLPlayersOfTableView">
+            <sorting column="4" order="1"/>
+        </item>
+        <item id="5" type="tableview" name="UpcomingTours">
+            <sorting column="5" order="0"/>
+        </item>
+    </Controls>
+    <MainLobby>
+        <Tabs>
+            <item id="1" name="QuickSeat">
+                <GameType>1</GameType>
+                <item id="1" Game="FixedLimit">
+                    <TableType>0</TableType>
+                    <StakesType>0</StakesType>
+                </item>
+            </item>
+        </Tabs>
+        <ActiveTab>0</ActiveTab>
+        <TimeZone>0</TimeZone>
+    </MainLobby>
+</Settings>
